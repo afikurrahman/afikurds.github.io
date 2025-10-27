@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
+    <meta name="description" content="">
+    <meta name="author" content="Md Afikur Rahman">
+
+    <title>Md. Afikur Rahman</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" 
+          href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script> 
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> 
+
+
+   
+    
+   
+
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+
+
+    <!-- <link href="assets/css/vendors/vendors.css" rel="stylesheet" type="text/css"> -->
+    <!-- Load extra page specific css-->
+    <!-- Overwrite vendors-->
+
+    <!-- From Thsin Mostafiz -->
+   
+    <!-- <link href="assets/css/styles.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- <script src="assets/js/vendors/jquery.min.js"></script>  -->
+
+     
+
+    
+    <!---------------------------- Icons import ------------------------------>
+    <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+
+    <!------------------------ Own Write Styles added ----------------------> 
+    
+    <!-- ----------------------------- 1st one --------------------------------- -->
+        <style type="text/css">
+            .fa_custom {
+            color: #0099CC
+            }
+            .left {
+                text-align left;
+                float left
+              }
+
+        </style>
+
+
+     <!---------------------------------- 2nd One ---------------------- -->
+
+        <style>
+              body {margin:0;}
+
+              .icon-bar {
+                width: 100%;
+                /*background-color: #555;*/
+                overflow: auto;
+              }
+
+              .icon-bar a {
+                float: left;
+                width: 20%;
+                text-align: center;
+                padding: 12px 0;
+                transition: all 0.3s ease;
+                color: white;
+                font-size: 30px;
+              }
+
+              .icon-bar a:hover {
+                /*background-color: #000;*/
+                background-color: #BD5D38;
+              }
+
+              .active {
+                /*background-color: #4CAF50;*/
+                background-color: #BD5D38;
+
+              }
+          </style>
+         
+         <!-- Mobile Responsive Styles -->
+         <style>
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 3rem !important;
+                    line-height: 3rem !important;
+                }
+                h2 {
+                    font-size: 2rem !important;
+                }
+                .subheading {
+                    font-size: 1rem !important;
+                }
+                marquee {
+                    font-size: 16px !important;
+                }
+                .project-summary {
+                    font-size: 14px;
+                }
+                .resume-date {
+                    text-align: left !important;
+                    margin-top: 10px;
+                }
+                .icon-bar a {
+                    font-size: 20px;
+                }
+                .list-icons {
+                    font-size: 2rem !important;
+                }
+                /* Fix overflow on mobile */
+                .container-fluid {
+                    overflow-x: hidden;
+                }
+                #key-projects ul li {
+                    margin-bottom: 20px;
+                }
+                /* Make project filter buttons responsive */
+                .project-toolbar .btn-group {
+                    flex-wrap: wrap;
+                }
+                .project-toolbar .btn {
+                    font-size: 14px !important;
+                    padding: 5px 10px !important;
+                    margin: 2px !important;
+                }
+                /* Fix navbar toggle */
+                .navbar-toggler {
+                    background-color: #BD5D38;
+                    border: 1px solid #BD5D38;
+                }
+                /* Improve list readability on mobile */
+                ul li {
+                    line-height: 1.6;
+                    margin-bottom: 10px;
+                }
+                /* Fix resume items on mobile */
+                .resume-item {
+                    padding: 15px 0;
+                }
+                /* Ensure images are responsive */
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                /* Fix padding on mobile */
+                section.resume-section {
+                    padding-left: 1rem !important;
+                    padding-right: 1rem !important;
+                }
+            }
+            
+            /* Additional responsive improvements */
+            @media (max-width: 576px) {
+                .btn-group .btn {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 5px !important;
+                }
+            }
+            
+         </style>
+         
+         <!-- Research Gallery Styles -->
+         <style>
+            .research-gallery {
+                margin-top: 30px;
+            }
+            
+            .research-item {
+                background: #f8f9fa;
+                border-radius: 12px;
+                padding: 30px;
+                margin-bottom: 40px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                border: 2px solid var(--border-color);
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                transition: all 0.3s ease;
+            }
+            
+            .research-item:hover {
+                box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+                transform: translateY(-2px);
+            }
+            
+            .research-content {
+                flex: 1;
+                min-width: 300px;
+            }
+            
+            .research-image {
+                flex: 0 0 auto;
+                max-width: 400px;
+                width: 100%;
+            }
+            
+            .research-image img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                transition: transform 0.3s ease;
+            }
+            
+            .research-image img:hover {
+                transform: scale(1.02);
+            }
+            
+            .research-title {
+                color: #BD5D38;
+                font-weight: bold;
+                font-size: 18px;
+                margin-bottom: 10px;
+                line-height: 1.4;
+            }
+            
+            .research-authors {
+                font-style: italic;
+                margin-bottom: 10px;
+                color: #666;
+                font-size: 14px;
+            }
+            
+            .research-venue {
+                font-weight: 700;
+                color: #343a40;
+                margin-bottom: 15px;
+                font-size: 15px;
+            }
+            
+            .research-links {
+                margin-top: 15px;
+            }
+            
+            .research-links a {
+                display: inline-block;
+                padding: 10px 24px;
+                background: #2563eb;
+                color: white;
+                text-decoration: none;
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                transition: all 0.3s ease;
+                border: 1px solid #2563eb;
+            }
+            
+            .research-links a:hover {
+                background: #1d4ed8;
+                color: white;
+                text-decoration: none;
+                transform: translateY(-1px);
+                box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+            }
+            
+            @media (max-width: 768px) {
+                .research-item {
+                    padding: 15px;
+                    flex-direction: column;
+                }
+                
+                .research-content {
+                    min-width: 100%;
+                }
+                
+                .research-image {
+                    max-width: 100%;
+                    margin-top: 15px;
+                }
+                
+                .research-title {
+                    font-size: 16px;
+                }
+                
+                .research-authors,
+                .research-venue {
+                    font-size: 13px;
+                }
+            }
+            
+            /* Enhanced card spacing and styling */
+            .project-item {
+                padding: 20px !important;
+                margin: 15px !important;
+                background: var(--card-bg);
+                border-radius: 10px;
+                border: 2px solid var(--border-color);
+                box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+                transition: all 0.3s ease;
+            }
+            
+            .project-item:hover {
+                box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+                transform: translateY(-2px);
+                border-color: var(--primary-color);
+            }
+            
+            /* Resume items spacing */
+            .resume-item {
+                padding: 25px;
+                margin-bottom: 35px;
+                background: var(--card-bg);
+                border-radius: 10px;
+                border: 1px solid var(--border-color);
+                box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            }
+            
+            /* Section spacing */
+            section.resume-section {
+                padding: 4rem 3rem !important;
+            }
+            
+            /* Project grid spacing */
+            .project-container {
+                padding: 20px;
+            }
+            
+            #isotope-list {
+                margin: -15px;
+            }
+            
+            @media (max-width: 768px) {
+                section.resume-section {
+                    padding: 2rem 1.5rem !important;
+                }
+                
+                .project-item {
+                    margin: 10px !important;
+                    padding: 15px !important;
+                }
+                
+                .resume-item {
+                    padding: 20px;
+                    margin-bottom: 25px;
+                }
+            }
+         </style>
+         
+         <!-- About Section Space Background -->
+         <style>
+            /* Animated space background for about section only */
+            #about {
+                position: relative;
+                overflow: hidden;
+            }
+            
+            @keyframes drift {
+                from {
+                    background-position: 0 0, 25px 25px, 0 0;
+                }
+                to {
+                    background-position: 80px 80px, 75px 75px, 0 0;
+                }
+            }
+            
+            #about::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: 
+                    /* Moderate star pattern */
+                    radial-gradient(circle, rgba(0,0,0,0.6) 1px, transparent 1px),
+                    radial-gradient(circle, rgba(0,0,0,0.4) 0.5px, transparent 0.5px),
+                    /* Color gradient overlay */
+                    linear-gradient(to bottom, rgba(37, 99, 235, 0.05), rgba(147, 51, 234, 0.05));
+                background-size: 80px 80px, 50px 50px, 100% 100%;
+                background-position: 0 0, 25px 25px, 0 0;
+                animation: drift 120s linear infinite;
+                z-index: 0;
+            }
+            
+            #about::after {
+                content: '';
+                position: absolute;
+                width: 200%;
+                height: 200%;
+                top: -50%;
+                left: -50%;
+                background-image: 
+                    radial-gradient(circle at 20% 30%, rgba(37, 99, 235, 0.15) 0, transparent 50%),
+                    radial-gradient(circle at 80% 70%, rgba(147, 51, 234, 0.15) 0, transparent 50%),
+                    radial-gradient(circle at 40% 60%, rgba(59, 130, 246, 0.1) 0, transparent 40%);
+                animation: rotate 60s linear infinite;
+                z-index: 0;
+            }
+            
+            @keyframes rotate {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+            
+            /* Dark mode about section */
+            @keyframes drift-dark {
+                from {
+                    background-position: 0 0, 30px 30px, 0 0;
+                }
+                to {
+                    background-position: -100px -100px, -30px -30px, 0 0;
+                }
+            }
+            
+            body.dark-mode #about::before {
+                background: 
+                    /* Moderate star pattern */
+                    radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px),
+                    radial-gradient(circle, rgba(255,255,255,0.5) 0.5px, transparent 0.5px),
+                    /* Color gradient overlay */
+                    linear-gradient(to bottom, rgba(88, 166, 255, 0.1), rgba(167, 139, 250, 0.1));
+                background-size: 100px 100px, 60px 60px, 100% 100%;
+                background-position: 0 0, 30px 30px, 0 0;
+                animation: drift-dark 150s linear infinite;
+            }
+            
+            body.dark-mode #about::after {
+                background-image: 
+                    radial-gradient(circle at 20% 30%, rgba(88, 166, 255, 0.3) 0, transparent 50%),
+                    radial-gradient(circle at 80% 70%, rgba(167, 139, 250, 0.3) 0, transparent 50%),
+                    radial-gradient(circle at 40% 60%, rgba(96, 165, 250, 0.2) 0, transparent 40%);
+            }
+            
+            /* Ensure content is above background */
+            #about .my-auto {
+                position: relative;
+                z-index: 1;
+            }
+            
+            /* Larger fonts for about section */
+            #about h1 {
+                font-size: 7rem !important;
+                line-height: 6.5rem !important;
+            }
+            
+            #about .subheading {
+                font-size: 1.5rem !important;
+            }
+            
+            #about marquee {
+                font-size: 24px !important;
+            }
+            
+            #about p {
+                font-size: 1.2rem !important;
+                line-height: 1.8 !important;
+            }
+            
+            #about h4 {
+                font-size: 1.75rem !important;
+            }
+            
+            #about ul li {
+                font-size: 1.1rem !important;
+                line-height: 1.8 !important;
+            }
+            
+            @media (max-width: 768px) {
+                #about h1 {
+                    font-size: 3.5rem !important;
+                    line-height: 3.5rem !important;
+                }
+                
+                #about .subheading {
+                    font-size: 1.2rem !important;
+                }
+                
+                #about marquee {
+                    font-size: 18px !important;
+                }
+                
+                #about p {
+                    font-size: 1.1rem !important;
+                }
+                
+                #about ul li {
+                    font-size: 1rem !important;
+                }
+            }
+         </style>
+         
+         <!-- Dark Mode Styles -->
+         <style>
+            :root {
+                --bg-color: #fff;
+                --text-color: #868e96;
+                --heading-color: #343a40;
+                --primary-color: #2563eb;
+                --section-bg: #fff;
+                --nav-bg: #1e40af;
+                --card-bg: #f8f9fa;
+                --border-color: #dee2e6;
+            }
+            
+            body.dark-mode {
+                --bg-color: #0d1117;
+                --text-color: #c9d1d9;
+                --heading-color: #f0f6fc;
+                --primary-color: #58a6ff;
+                --section-bg: #161b22;
+                --nav-bg: #1f2937;
+                --card-bg: #21262d;
+                --border-color: #30363d;
+                background-color: #0d1117 !important;
+            }
+            
+            body {
+                background-color: var(--bg-color) !important;
+                color: var(--text-color) !important;
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+            
+            .container-fluid {
+                background-color: var(--bg-color) !important;
+                min-height: 100vh;
+            }
+            
+            h1, h2, h3, h4, h5, h6 {
+                color: var(--heading-color) !important;
+            }
+            
+            .text-primary {
+                color: var(--primary-color) !important;
+            }
+            
+            .bg-primary {
+                background-color: var(--primary-color) !important;
+            }
+            
+            #sideNav {
+                background-color: var(--nav-bg) !important;
+            }
+            
+            .resume-section {
+                background-color: var(--section-bg);
+                border-color: var(--border-color) !important;
+            }
+            
+            .research-item, .resume-item {
+                background-color: var(--card-bg) !important;
+            }
+            
+            .dark-mode-toggle {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                z-index: 1000;
+                background: var(--primary-color);
+                border: none;
+                color: white;
+                padding: 10px 15px;
+                border-radius: 30px;
+                cursor: pointer;
+                font-size: 18px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                transition: all 0.3s ease;
+            }
+            
+            .dark-mode-toggle:hover {
+                transform: scale(1.1);
+                box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            }
+            
+            @media (max-width: 992px) {
+                .dark-mode-toggle {
+                    top: 10px;
+                    right: 10px;
+                    font-size: 16px;
+                    padding: 8px 12px;
+                }
+            }
+            
+            /* Dark mode specific styles */
+            body.dark-mode a {
+                color: #58a6ff;
+            }
+            
+            body.dark-mode a:hover {
+                color: #79c0ff;
+            }
+            
+            /* Keep orange links visible in dark mode */
+            body.dark-mode a[style*="#BD5D38"] {
+                color: #ff7043 !important;
+            }
+            
+            body.dark-mode a[style*="#BD5D38"]:hover {
+                color: #ff8a65 !important;
+            }
+            
+            body.dark-mode .btn-dark {
+                background-color: var(--primary-color) !important;
+                border-color: var(--primary-color) !important;
+            }
+            
+            /* Research publication buttons in dark mode */
+            body.dark-mode .research-links a {
+                background: #1f6feb;
+                color: #ffffff !important;
+                border: 1px solid #388bfd;
+                font-weight: 500;
+            }
+            
+            body.dark-mode .research-links a:hover {
+                background: #388bfd;
+                border-color: #58a6ff;
+                color: #ffffff !important;
+                transform: translateY(-1px);
+                box-shadow: 0 4px 12px rgba(88, 166, 255, 0.3);
+            }
+            
+            body.dark-mode .list-social-icons a {
+                color: #e0e0e0;
+            }
+            
+            body.dark-mode .list-social-icons a:hover {
+                color: var(--primary-color);
+            }
+            
+            body.dark-mode input,
+            body.dark-mode textarea,
+            body.dark-mode select {
+                background-color: var(--card-bg);
+                color: var(--text-color);
+                border-color: var(--border-color);
+            }
+            
+            body.dark-mode .project-item {
+                background-color: var(--card-bg);
+                border-color: var(--border-color);
+            }
+            
+            body.dark-mode .fa-ul .fa-li {
+                color: var(--primary-color);
+            }
+            
+            /* Research venue and authors in dark mode */
+            body.dark-mode .research-venue {
+                color: #f0f6fc !important;
+                font-weight: 700;
+            }
+            
+            body.dark-mode .research-authors {
+                color: #a8b2c1 !important;
+            }
+            
+            body.dark-mode .research-title {
+                color: #58a6ff !important;
+                font-weight: 700;
+            }
+            
+            /* Project filter buttons in dark mode */
+            body.dark-mode .btn-dark {
+                background-color: #21262d !important;
+                border: 1px solid #30363d !important;
+                color: #c9d1d9 !important;
+            }
+            
+            body.dark-mode .btn-dark:hover,
+            body.dark-mode .btn-dark:focus,
+            body.dark-mode .btn-dark.active {
+                background-color: #1f6feb !important;
+                border-color: #388bfd !important;
+                color: #ffffff !important;
+            }
+            
+            body.dark-mode .btn-dark i {
+                color: #58a6ff !important;
+            }
+            
+            body.dark-mode .btn-dark.active i,
+            body.dark-mode .btn-dark:hover i {
+                color: #ffffff !important;
+            }
+         </style>
+
+     <!-- ----------------------------- 3rd One -------------------- -->
+
+
+          <style>
+                    a.uppercase {
+                      text-transform: uppercase;
+                    }
+
+                    a.lowercase {
+                      text-transform: lowercase;
+                    }
+
+                    p.capitalize {
+                      text-transform: capitalize;
+                    }
+          </style>
+   
+
+     <!-- ---------------------- 4th One ------------------------- -->
+
+
+          <style >
+            
+               .icon-android {
+                    background: url('https://drive.google.com/uc?export=view&id=1Hm4DOCPN9j9prRfDYBoXasuAf5iLN-SV');
+                    height: 40px;
+                    width: 40px;
+                    display: block;
+                    /* Other styles here */
+                }
+
+                .icon-pytorch {
+                    background: url('https://drive.google.com/uc?export=view&id=1hp1uoI5q_-ttDnURu8ssjmJUXGshjYvR');
+                    height: 40px;
+                    width: 40px;
+                    display: block;
+                    /* Other styles here */
+                }
+
+                .icon-tensorflow {
+                    background: url('https://drive.google.com/uc?export=view&id=1CuRrM5uqo1_ctwdjynBg4xj0ZM2lijgJ');
+                    height: 40px;
+                    width: 40px;
+                    display: block;
+                    /* Other styles here */
+                }
+
+          </style>
+
+  </head>
+
+
+
+
+
+  <!------------------------------------Body Start------------------------>
+
+  <body id="page-top" class="dark-mode">
+    
+    <!-- Dark Mode Toggle Button -->
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()" title="Toggle Dark Mode">
+      <i class="fas fa-sun" id="theme-icon"></i>
+    </button>
+
+
+  <!--------------------- Nav Part Or Left Side ----------------------------- --> 
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none"></span>
+        <span class="d-none d-lg-block">
+          <img class="img-thumbnail img-fluid" src="img/afikur_in.jpg" alt="Md. Afikur Rahman">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Educations </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#project">Projects</a>
+          </li>
+        
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#publication">Research</a>
+          </li> -->
+          
+          
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+       
+
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#detailedCV">Detailed CV</a>
+          </li> -->
+          
+        </ul>
+      </div>
+      
+      <div class="subheading mb-2">Follow me:
+          </div>
+
+
+
+          <div class="icon-bar">
+            <a  href="https://github.com/afikurrahman" target="_blank"><i class="fab fa-github fa-spin"></i></a> 
+            <a href="https://www.kaggle.com/mdafikurrahman" target="_blank"><i class="fab fa-kaggle fa-spin"></i></a> 
+            <!-- <a href="https://x.com/AfikurMd52116" target="_blank"><i class="fab fa-twitter fa-spin"></i></a>  -->
+            <a href="https://www.linkedin.com/in/afikur13/" target="_blank"><il class="fab fa-linkedin fa-spin"></i></a> 
+          </div>
+
+
+          
+      
+      
+    </nav>
+
+
+
+
+
+<!-------------------------------Main Part or Right Part ---------------->
+
+  <div class="container-fluid p-0">
+
+
+
+
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-0" >Md. Afikur Rahman
+          <!-- <span class="text-primary">Afik</span> -->
+        </h1>
+
+         <h3 class="mb-0">
+          <span class="text-primary">Data Scientist </span>
+        </h3>
+<!--          <h3 class="mb-0">
+          <span class="text-primary">Data Scientist | Machine Learning Engineer </span>
+        </h3> -->
+
+        <div class="subheading mb-3"> Mirpur, Dhaka, Bangladesh | (+880) 1796-439329/(+880) 1518-971994  | 
+             <a class="lowercase" href="mailto:afikur.cse@gmail.com" target="_blank"> afikur.cse@gmail.com</a> 
+        </div>
+    
+    
+        <marquee direction="left" style="font-size: 20px; line-height: 28px; padding: 15px 0 20px 0; margin: 10px 0; display: block; overflow: visible;">
+          <a style="color: #BD5D38; font-weight: bold;"><em>Data Scientist | Machine Learning Engineer | GenAI Expert</em></a>
+        </marquee>
+    
+    
+        <div>
+          <ul>
+            <li>
+              <p><b>Seasoned Data Scientist</b> with over 2 years of comprehensive experience in Machine Learning, Data Analytics, Generative AI, and Large Language Models. I enjoy working with data to discover patterns, make accurate predictions, and support smart decision making. I have strong skills in Mathematics, Statistics, and Programming. I am also a good communicator and team player, with leadership experience. Proven track record across diverse environments including leading software companies.</p>
+            </li>
+            <li>
+              <p><b>Graduated</b> from the <a style="color: #BD5D38; font-weight: bold;" href="https://green.edu.bd/" target="_blank">Green University of Bangladesh</a> with a major in Computer Science & Engineering.</p>
+            </li>
+            
+            <li>
+              <p> <b>BSc Thesis</b> <a style="color: #BD5D38; font-weight: bold;"  target="_blank">Online Fraud Detection Using Machine Learning.</a> </p>
+            </li>
+           
+          </ul>
+    
+          <br/>
+          <br/>
+    
+          <div class="form-group">
+            <button class="btn btn-dark btn-lg float-right" data-toggle="collapse" data-target="#demo" type="button">Preview CV</button>
+          </div>
+    
+          <div id="demo" class="collapse" style="text-align: center;">
+            <br>
+            <br>
+            <embed src="pdf/CVofMd Afikur Rahman.pdf" width="1000" height="600" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+          </div>
+    
+          <br/>
+          <br/>
+    
+          <h4 class="mb-3">Areas of Expertise</h4>
+          <ul>
+            
+            <li>
+              <p><b>Generative AI & LLMs:</b> Prompt Engineering, Model Fine-tuning, LangChain, Vector Databases</p>
+            </li>
+            <li>
+              <p><b>Machine Learning & Deep Learning:</b> TensorFlow, Data Pipelines, PyTorch, Data Analysis, Data Manipulation, Data Visualization, Model deployment and scaling</p>
+            </li>
+            <li>
+              <p><b>Speech & NLP:</b> STT/TTS systems (Whisper, wav2vec2), NLP pipelines, Transformer models, BERTopic</p>
+            </li>
+            
+            <li>
+              <p><b>SKILLS:</b> Python (Expert), MYSQL, Numpy, Pandas, Matplotlib, Excel, Machine Learning, Scikit-Learn, PyTorch, TensorFlow, LLMs, Data Analysis, Data Driven, Data Pipelines, Data Collection, Data Manipulation, Data Visualization</p>
+            </li>
+            <li>
+              <p><b>Frameworks & Tools:</b> Flask, FastAPI, OpenSearch</p>
+            </li>
+          </ul>
+    
+          <br/>
+          <br/>
+    
+          <h4 class="mb-3">Research Interests</h4>
+          <ul>
+            <li>
+              <p>Data Science</p>
+            </li>
+            <li>
+              <p>Machine Learning</p>
+            </li>
+          <!--   <li>
+              <p>Computer Vision</p>
+            </li> -->
+            <!-- <li>
+              <p>Sequence Modeling</p>
+            </li> -->
+            <li>
+              <p>Natural Language Processing</p>
+            </li>
+          </ul>
+        </div>
+    
+      </div>
+    </section>    
+
+
+
+
+
+
+     <!-------------------------------Education Section----------------->
+
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+              <div class="my-auto">
+                    <h2 class="mb-5">Educations</h2>
+
+                    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                      <div class="resume-content mr-auto">
+                        <h3 class="mb-0">B.Sc. in Computer Science & Engineering</h3>
+                        <div class="subheading mb-1">Green University of Bangladesh , Bangladesh</div>
+                        <div class="subheading mb-1">CGPA: 3.26 out of 4.00 | Ranked 2nd in Batch.</div>
+                      
+                      </div>
+<!--                       <div class="resume-date text-md-right">
+                        <span class="text-primary">Sep. 2017 - Feb. 2020</span>
+                      </div> -->
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row">
+                      <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Higher Secondary Certificate (H.S.C.)</h3>
+                        <div class="subheading mb-2">Govt. Akbar Ali College, Sirajganj , Bangladesh</div>
+                        <div class="subheading mb-3">GPA: 4.75 (out of 5.00).</div>
+                                
+                      </div>
+<!--                       <div class="resume-date text-md-right">
+                        <span class="text-primary">Jun. 201 - Jun 201</span>
+                      </div> -->
+                    </div>
+
+                  </br>
+
+
+
+                   </div>
+
+
+
+
+                   <hr> <!-- ------------------------------------------------------------ -->
+
+
+                   
+                  
+              </div>
+        </section>
+
+
+
+     <!-- --------------------------Experience-------------------------->
+
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+                <div class="my-auto">
+                  <h2 class="mb-5">Experience</h2>
+
+
+                 
+
+                  <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                      <h3 class="mb-0">Data Scientist</h3>
+                      <h4 class="mb-3"><a style="color: #BD5D38; "  target="_blank">Loosely Coupled Technology</a></h4>
+                       <p> Worked in the Business Problem as a Data Science & Business Analytics.
+                        <ul>
+                          <li>
+                            Build and train machine learning models to solve real business problems such as predicting customer behavior, improving product performance, or optimizing operations.  
+                          </li>
+                          <li>
+                            Use tools like Python, SQL, and Power BI to analyze data, visualize trends, and automate reports.  
+                          </li>
+                           <li>
+                            Work closely with product, marketing, and engineering teams to understand their challenges and provide data-backed solutions 
+                          </li>
+                        
+                          <li>
+                            Conducted thorough data analysis and preprocessing, including feature engineering and data augmentation, resulting in improved model performance.
+                          </li>
+                          <li>
+                            Cleaned and prepared data, added useful features, and expanded data to make the models more accurate.
+                          </li>
+                           <li>
+                            Worked on social media data to predict people’s opinions.
+                          </li>
+                           <li>
+                            Developed predictive analytics pipelines for customer segmentation, churn prediction, and demand forecasting, driving targeted marketing and revenue optimization.  
+                          </li>
+                          
+                          <li>
+                            Mentored junior data scientists and analysts on data wrangling, feature engineering, and model evaluation techniques.  
+                          </li>
+
+                        </ul>
+                      </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                      <span class="text-primary">May 2025 - Present</span>
+                    </div>
+                  </div>
+
+
+
+                  <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                      <h3 class="mb-0">Machine Learning Engineer - Intern</h3>
+                      <h4 class="mb-3"><a style="color: #BD5D38; "  target="_blank">Inflexionpoint Technologies (BD) Ltd</a></h4>
+                       <!-- <p> Worked in the Business Problem as a Data Science & Business Analytics Intern. -->
+                        <ul>
+                          <li>
+                            EDA ,Feature Engineering ,Missing Value Handlin for Spotify Track Skips.  
+                          </li>
+                          <li>
+                            Build Predictive Modeling for Predict Spotify Track Skips.
+                          </li>
+                          <li>
+                            End to End Deployment for Spotify Track Skips.
+                          </li>
+                          <li>
+                            Cleaned and prepared data, added useful features, and expanded data to make the models more accurate.
+                          </li>
+
+                        </ul>
+                      </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                      <span class="text-primary">Aug 2023 - Jan 2024</span>
+                    </div>
+                  </div>
+
+
+
+                  
+
+
+
+                 
+
+                </div>
+
+        </section>
+
+
+
+        
+     <!------------------------------------Projects--------------------->
+
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column"  id="project">
+                  
+            <h2 class="mb-5">Projects</h2>
+         
+                <div class="container" >
+                 
+                        
+                   <div class="row" style="max-width:800px; margin:0 auto;">
+                       <!--  <div class="col-md-3">
+                            <div class="heading-with-sub">
+                                <h3 class="title with-sideline">Selected Projects</h3>
+                                <br>
+                            </div>
+                        </div> -->
+                        <div class="col-12" >
+
+
+                            <div class="project-toolbar" >
+                                <div id="filters">
+                                    <div class="btn-toolbar">
+                                        <div class="btn-group">
+
+                                            <a href="#" data-filter="*" class="btn btn-lg  btn-dark"><i class="icon-comment"  style="color: #2563eb;"></i> All</a>
+
+                                            <a href="#" data-filter=".keyprojects" class="btn btn-lg btn-dark"><i class="icon-comment"></i>Key Projects</a>
+
+                                            <a href="#" data-filter=".datascience" class="btn btn-lg btn-dark"><i class="icon-comment"></i>Data Science</a>
+
+                                        
+
+                                            <!-- <a href="#" data-filter=".web" class="btn btn-lg btn-dark"><i class="icon-comment"></i>Web Application</a> -->
+
+
+
+                                            <!-- <a href="#" data-filter=".iot" class="btn btn-lg btn-dark"><i class="icon-comment"></i>IoT</a> -->
+
+                                           <!--  <a href="#" data-filter=".others" class="btn btn-lg btn-dark"><i class="icon-comment"></i>Others</a> -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <!-- <p> -->
+                          
+                            <div id="container-projects" class="isotope">
+                                <ul class="fa-ul" style="position: relative">
+                                    
+                             
+                                   <!-- 
+                                    <li class="project-item isotope-item deep-learning software">
+                                        <span class="project-title">
+                  <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i> -->
+                  <li class="project-item isotope-item datascience">
+                    <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
+                    <span class="project-title">
+                  
+                     <b>Bangladesh Social Media Sentiment and Topic Prediction</b>
+                    <!--</a>-->
+                    </span>
+                                        <p class="project-summary"><b>Overview:</b> In this project, I analyzed Social Media posts and comments from across Bangladesh to understand public sentiment and identify the trending topics people were discussing. By applying <b>sentiment analysis</b> and <b>topic modeling</b>, I uncovered insights into how people felt about various issues and what they were most concerned about. <a href="" target="_blank"> ( Project Link) </a><br>
+
+
+                                            <b>Key Skills:</b>  Sentiment Analysis, Natural Language Processing, Topic Modeling (LDA)
+                                            <b>Outcome:</b> This analysis helped in gauging public opinion on important social topics, offering valuable insights that could guide policy-making, political campaigns, and social movements. 
+
+
+
+
+                                            </p>
+                                    </li>
+
+                                    
+
+
+                                    <li class="project-item isotope-item datascience">
+                                        <span class="project-title">
+                  
+                            <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
+                            <b>Bangladesh Election Candidate Analysis</b>
+                            <!--</a>-->
+                            </span>
+                                         <p class="project-summary"><b>Overview:</b> During the Bangladesh election season, I analyzed social media data about election candidates to gauge public sentiment and identify hot topics. By tracking engagement, sentiment trends, and popularity across different regions, I was able to provide a data-driven comparison of the candidates. <a href="" target="_blank"> ( Project Link) </a><br>
+
+                                           <b>Key Skills:</b>  Data Analysis, Sentiment Analysis, Data Visualization, Social Media Analytics
+                                            <b>Outcome:</b> This work offered a clear picture of how each candidate was perceived by voters in real-time, helping political analysts predict voter behavior and guiding campaign strategies.
+
+                                            </p>
+                                    </li>
+
+
+
+                                    <li class="project-item isotope-item datascience">
+                                        <span class="project-title">
+                  
+                            <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
+                            <b>Malaysia Hospital Social Media Analysis</b>
+                            <!--</a>-->
+                            </span>
+                                          <p class="project-summary"><b>Overview:</b> I performed sentiment analysis and topic modeling on patient feedback and complaints about hospitals in Malaysia, extracted from social media. The goal was to understand patient satisfaction, identify recurring issues and create actionable insights for hospital management. <a href="" target="_blank"> ( Project Link) </a><br>
+
+                                           <b>Key Skills:</b>  Sentiment Analysis, Topic Modeling, Data Visualization, Dashboard Reporting
+                                            <b>Outcome:</b> The final deliverable was an interactive dashboard that compared hospitals on their reputation and service quality, empowering hospital administrators to make data-driven decisions to improve patient care.
+
+                                            </p>
+                                    </li>
+
+                                    
+
+                                   
+
+
+
+                                 
+                 
+
+                                
+                  </span>
+                                       
+
+                                    
+                                    <!-- Key Projects Section -->
+                                    <li class="project-item isotope-item keyprojects">
+                                        <span class="project-title">
+                                        <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
+                                        <b>House Price Prediction</b>
+                                        </span>
+
+                                        <p class="project-summary"><b>Overview: </b> I developed a model to predict house prices using key features such as location, size, and available amenities. The model aimed to provide real estate professionals with an accurate tool for setting competitive prices for properties. <a href="" target="_blank">  ( Project Link) </a><br>
+
+                                           <b>Key Skills:</b>  Regression Analysis, Machine Learning, Data Preprocessing, Feature Engineering
+                                            <b>Outcome:</b> This model helped real estate agents predict house prices with high accuracy, leading to more informed pricing strategies and better market insights.
+
+                                            </p>
+                                    </li>
+                                    
+                                    <li class="project-item isotope-item keyprojects">
+                                        <span class="project-title">
+                                        <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
+                                        <b>Heart Disease Prediction</b>
+                                        </span>
+
+                                        <p class="project-summary"><b>Overview: </b> I developed a machine learning model to predict the likelihood of heart disease based on patient health data. By analyzing various health indicators, the model was able to assess individual risk levels and offer personalized recommendations for preventative care. <a href="" target="_blank">  ( Project Link) </a><br>
+
+                                           <b>Key Skills:</b>  Classification Models, Logistic Regression, Random Forest, Health Data Analysis
+                                            <b>Outcome:</b> The model helped healthcare providers prioritize patients at high risk, improving early detection and intervention, ultimately contributing to better patient outcomes.
+
+                                            </p>
+                                    </li>
+                                    
+                                    <li class="project-item isotope-item keyprojects">
+                                        <span class="project-title">
+                                        <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
+                                        <b>Students Performance Analysis</b>
+                                        </span>
+                                        
+                                        <p class="project-summary"><b>Overview: </b> In this project, I leveraged the Students Performance dataset to analyze and predict student academic performance based on various factors, including study habits, social media usage, family background, and more. The goal was to understand how different factors contribute to students' exam scores and predict their future performance. <a href="https://github.com/afikurrahman/End-to-End-Student-Performance-Prediction/tree/main" target="_blank">  ( Project Link) </a><br>
+
+                                           <b>Key Skills:</b>  Data Preprocessing, Data Visualization, Machine learning Algorithms.
+                                            <b>Outcome:</b> The model provided insights into the key factors influencing student performance, helping educators identify areas where students may need additional support. It also provided a tool for predicting future scores based on current academic behavior, potentially guiding interventions or support strategies.
+                                            </p>
+                                    </li>
+                                    
+
+                                </ul>
+                            </div>
+
+
+                 
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                                          
+                  </div>
+
+
+        </section>     
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            // Trigger click event on the "All" section
+            $('.btn-dark[data-filter="*"]').click();
+        });
+        </script>
+
+
+     
+            </div>
+          </div>
+        </section>
+         
+
+     <!----------------------------Skills------------------------------ -->
+
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+          <div class="my-auto">
+            <h2 class="mb-5">Skills</h2>
+            
+            <div class="subheading mb-3">Programming Languages</div>
+            <ul class="list-inline list-icons">
+              <li class="list-inline-item" title="Python">
+                <i class="fab fa-python"></i>
+              </li>
+              <li class="list-inline-item" title="R">
+                <i class="fab fa-r-project"></i>
+              </li>
+              <li class="list-inline-item" title="JavaScript">
+                <i class="fab fa-js-square"></i>
+              </li>
+             <!--  <li class="list-inline-item" title="Java">
+                <i class="fab fa-java"></i>
+              </li> -->
+              <!-- <li class="list-inline-item" title="C++">
+                <i class="fas fa-code"></i>
+              </li> -->
+            </ul>
+
+            <div class="subheading mb-3">Machine Learning & AI Frameworks</div>
+            <ul class="list-inline list-icons">
+              <li class="list-inline-item" title="TensorFlow">
+                <i class="fas fa-brain"></i>
+              </li>
+              <li class="list-inline-item" title="PyTorch">
+                <i class="fas fa-fire"></i>
+              </li>
+              <li class="list-inline-item" title="Scikit-learn">
+                <i class="fas fa-robot"></i>
+              </li>
+              <li class="list-inline-item" title="Keras">
+                <i class="fas fa-network-wired"></i>
+              </li>
+             <!--  <li class="list-inline-item" title="JAX">
+                <i class="fas fa-bolt"></i>
+              </li> -->
+              <li class="list-inline-item" title="LangChain">
+                <i class="fas fa-link"></i>
+              </li>
+            </ul>
+
+            <div class="subheading mb-3">Web Development & Tools</div>
+            <ul class="list-inline list-icons">
+              <li class="list-inline-item" title="HTML5">
+                <i class="fab fa-html5"></i>
+              </li>
+              <li class="list-inline-item" title="CSS3">
+                <i class="fab fa-css3-alt"></i>
+              </li>
+              <!-- <li class="list-inline-item" title="React">
+                <i class="fab fa-react"></i>
+              </li> -->
+             <!--  <li class="list-inline-item" title="Node.js">
+                <i class="fab fa-node-js"></i>
+              </li> -->
+              <li class="list-inline-item" title="Bootstrap">
+                <i class="fab fa-bootstrap"></i>
+              </li>
+              <li class="list-inline-item" title="Flask">
+                <i class="fas fa-pepper-hot"></i>
+              </li>
+              <li class="list-inline-item" title="Django">
+                <i class="fas fa-laptop-code"></i>
+              </li>
+             <!--  <li class="list-inline-item" title="Android">
+                <i class="fab fa-android"></i>
+              </li> -->
+            </ul>
+            
+            <div class="subheading mb-3">Cloud & DevOps</div>
+            <ul class="list-inline list-icons">
+              <li class="list-inline-item" title="AWS">
+                <i class="fab fa-aws"></i>
+              </li>
+              <li class="list-inline-item" title="Google Cloud Platform">
+                <i class="fab fa-google"></i>
+              </li>
+              <li class="list-inline-item" title="Docker">
+                <i class="fab fa-docker"></i>
+              </li>
+              <li class="list-inline-item" title="Git">
+                <i class="fab fa-git-alt"></i>
+              </li>
+              <li class="list-inline-item" title="GitHub">
+                <i class="fab fa-github"></i>
+              </li>
+             <!--  <li class="list-inline-item" title="Linux">
+                <i class="fab fa-linux"></i>
+              </li> -->
+              <li class="list-inline-item" title="Heroku">
+                <i class="fas fa-cloud"></i>
+              </li>
+            </ul>
+            
+            <div class="subheading mb-3">Databases & Big Data</div>
+            <ul class="list-inline list-icons">
+              <li class="list-inline-item" title="MySQL">
+                <i class="fas fa-database"></i>
+              </li>
+              <!-- <li class="list-inline-item" title="PostgreSQL">
+                <i class="fas fa-server"></i>
+              </li> -->
+              <li class="list-inline-item" title="MongoDB">
+                <i class="fas fa-leaf"></i>
+              </li>
+              <!-- <li class="list-inline-item" title="Redis">
+                <i class="fas fa-tachometer-alt"></i>
+              </li> -->
+              <li class="list-inline-item" title="Vector Databases">
+                <i class="fas fa-vector-square"></i>
+              </li>
+            </ul>
+
+            <div class="subheading mb-3">Technical Skills</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                <b>Languages:</b> Python, R, C/C++, JavaScript</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                <b>Lib/Frameworks:</b> TensorFlow, PyTorch, Flask, LangChain</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                <b>Tools:</b> Google Colab Environment, Kaggle Environment, Android Studio IDE, Pycharm, VS Code</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                <b>Platforms:</b> Google Cloud Platform, Heroku, AWS</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                <b>Databases:</b> SQL, Cloud Databases, Vector Databases</li>
+            </ul>
+            
+            <br/>
+            
+            <div class="subheading mb-3">Workflow & Methodologies</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Mobile-First, Responsive Design</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Cross Browser Testing &amp; Debugging</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Cross Functional Teams</li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+                Agile Development &amp; Scrum</li>
+            </ul>
+          </div>
+        </section>
+
+
+     
+    
+  </div>
+
+<!-------------------------------------------------------------- X ------------------------------------------------------------- -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+    <!-- JQury Added for Animations -->
+    <script src="assets/js/vendors/vendors.js"></script>
+    <script src="assets/js/hugo-academic.js"></script>
+    
+    <!-- Dark Mode Script -->
+    <script>
+      // Check for saved theme preference or default to 'dark' mode
+      const currentTheme = localStorage.getItem('theme') || 'dark';
+      
+      // Apply saved theme on page load
+      if (currentTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+        document.getElementById('theme-icon').classList.remove('fa-moon');
+        document.getElementById('theme-icon').classList.add('fa-sun');
+      }
+      
+      function toggleDarkMode() {
+        const body = document.body;
+        const themeIcon = document.getElementById('theme-icon');
+        
+        body.classList.toggle('dark-mode');
+        
+        if (body.classList.contains('dark-mode')) {
+          themeIcon.classList.remove('fa-moon');
+          themeIcon.classList.add('fa-sun');
+          localStorage.setItem('theme', 'dark');
+        } else {
+          themeIcon.classList.remove('fa-sun');
+          themeIcon.classList.add('fa-moon');
+          localStorage.setItem('theme', 'light');
+        }
+      }
+    </script>
+
+  </body>
+
+</html>
