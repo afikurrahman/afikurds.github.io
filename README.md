@@ -1,9 +1,7 @@
-# AIFahim Portfolio Website
+# Afikur Portfolio Website
 
 A professional portfolio website built with HTML, CSS, JavaScript, and Bootstrap, showcasing my experience as a Machine Learning Engineer, research publications, projects, and achievements.
 
-## 🌐 Live Website
-Visit: [https://aifahim.github.io](https://aifahim.github.io)
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -49,7 +47,7 @@ This portfolio website is designed to showcase:
 ## 📁 Project Structure
 
 ```
-aifahim.github.io/
+afikur.github.io/
 ├── .github/
 │   └── workflows/
 │       ├── static.yml          # GitHub Pages deployment workflow
@@ -67,8 +65,8 @@ aifahim.github.io/
 │   ├── resume.css             # Main stylesheet
 │   └── resume.min.css         # Minified version
 ├── img/
-│   ├── fahim.png              # Profile picture
-│   └── fahim_in.jpeg          # Alternative profile
+│   ├── afikur.png              # Profile picture
+│   └── afikur_in.jpeg          # Alternative profile
 ├── js/
 │   ├── resume.js              # Main JavaScript
 │   └── resume.min.js          # Minified version
@@ -116,8 +114,8 @@ aifahim.github.io/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AIFahim/aifahim.github.io.git
-   cd aifahim.github.io
+   git clone https://github.com/afikurrahman/afikur.github.io.git
+   cd afikur.github.io
    ```
 
 2. **Open in browser**
@@ -178,19 +176,19 @@ If you need to deploy manually:
 
 ### Updating Personal Information
 
-**Profile Section** (Lines ~500-550):
+**Profile Section**:
 ```html
-<h1 class="mb-0">Md. Asif Iqbal
-  <span class="text-primary">Fahim</span>
+<h1 class="mb-0">Md Afikur Rahman
+  <span class="text-primary">Afikur</span>
 </h1>
 <div class="subheading mb-5">
-  Contact: <a href="mailto:asif.iqbal.ece.ruet@gmail.com">email</a>
+  Contact: <a href="mailto:afikur.cse@gmail.com">email</a>
 </div>
 ```
 
 ### Adding Work Experience
 
-**Experience Section** (Lines ~600-800):
+**Experience Section**:
 ```html
 <div class="resume-item d-flex flex-column flex-md-row mb-5">
   <div class="resume-content mr-auto">
@@ -206,7 +204,7 @@ If you need to deploy manually:
 
 ### Adding Projects
 
-**Projects Section** (Lines ~1200-1500):
+**Projects Section** :
 ```html
 <li class="project-item isotope-item ml">
   <span class="project-title">
@@ -220,28 +218,11 @@ If you need to deploy manually:
 </li>
 ```
 
-### Adding Research Publications
 
-**Research Section** (Lines ~1750-1850):
-```html
-<div class="research-item">
-  <div class="research-content">
-    <div class="research-title">Paper Title</div>
-    <div class="research-authors">Authors</div>
-    <div class="research-venue">Conference/Journal</div>
-    <div class="research-links">
-      <a href="paper-link">Access Publication</a>
-    </div>
-  </div>
-  <div class="research-image">
-    <img src="assets/img/research/image.png" alt="Description">
-  </div>
-</div>
-```
 
 ### Updating Skills
 
-**Skills Section** (Lines ~1900-2000):
+**Skills Section**:
 ```html
 <!-- Programming Languages -->
 <li class="list-inline-item">
@@ -367,5 +348,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Last Updated**: January 2025
-**Maintained By**: Md. Asif Iqbal Fahim
+**Last Updated**: October 2025
+**Maintained By**: Md. Afikur Rahman
